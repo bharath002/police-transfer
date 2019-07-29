@@ -1,0 +1,30 @@
+<%@ Master Language="VB" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Online Police Transfer and Promotion System</title>
+</head>
+<body background="images/back1.bmp" topmargin=0>
+    <form id="form1" runat="server">
+    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    <div>
+    <table width="100%" border=0> 
+    <tr bgcolor="FFFFFF"  valign=top> <td valign=top> <img src="Images/Post1.jpg" border=0 />   </td> <td align=right><img src="Images/headpic.bmp" /></td></tr>
+    <tr> <td bgcolor="#FFAADD" height=10 colspan=2> <font face="verdana" size=2 ><strong>  </strong></font> </td></tr>
+    </table>
+    </div>
+    
+        <asp:Image ID="Image2" runat="server" Style="z-index: 102; left: 1px; position: absolute;
+            top: 860px" ImageUrl="~/images/Logo2.bmp" />
+    </div>
+    </form>
+</body>
+</html>
